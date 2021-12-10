@@ -1,0 +1,293 @@
+/* OG BG COLOR #1172d9 */
+body {  background-color: #440034;
+     }
+
+iframe.content {
+width:100%;
+height:87vH;
+overflow: hidden;
+/* position: absolute; */
+/* top:10% */
+}
+.dbutton{
+background-color:red;
+}
+.dbutton:active{
+background-color:blue;
+}
+div.popup{
+border:0px;
+position: absolute;
+top:0;
+left:25%;
+width:auto;
+text-align: center; 
+height:auto;
+text-align:left;
+color:white;
+padding:10px;
+border-radius: 25px
+}
+input[type='checkbox'].dismiss {
+    width:1vw;
+    height:1vw;
+}
+
+img.logo {
+height:7vh
+}
+img.panic {
+height:5vh
+}
+div.spacer {
+height:5vw
+}
+    .brown-white , .pink-white , .green-white , .red-white , .blue-white {
+  display: block;
+  width: 100%;
+  border: none;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "verdana";
+  transition:0.3s;
+  border-radius:25px;
+}
+
+    .brown-white:hover , .pink-white:hover , .green-white:hover , .red-white:hover , .blue-white:hover {
+padding:18px 32px;
+    }
+
+h4,h1,p{
+color: white
+}
+.green-white {
+  background-color: limegreen;
+}
+.green-white:hover {
+  background-color: green;
+  font-size: 17px;
+}
+    div.logo {
+  width: 128px;
+  height: 64px;
+  background: url(Logo.png);
+  background-repeat:no-repeat;
+  display: inline-block;
+}
+    div.logo:hover {
+  background: url(LogoInvert.png)
+  
+}
+    .blue-white {
+  background-color: #266350;
+}
+    .blue-white:hover {
+  background-color: #173d31;
+  font-size: 17px;
+
+}
+
+    .red-white {
+  
+/* OG BUTTON COLOR ##FF3300 */
+  background-color: #1172d9;
+}
+    .dropdown-base {
+  display: inline;
+  border: none;
+  background-color: #1172d9;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "verdana";
+  border-radius:25px;
+  transition:0.3s;
+}
+    .dropdown {
+  border: none;
+  background-color: #1172d9;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "verdana";
+  display:none;
+  border-radius:25px;
+  transition:0.3s;
+}
+    .dropdown:hover {
+  display: blocl;  
+  border-radius:25px;
+  transition:0.3s;
+}
+    .red-white:hover {
+  background-color: #0d57a5;
+  font-size: 17px;
+}
+
+    .pink-white {
+  background-color: #ff33cc;
+}
+    .pink-white:hover {
+  background-color: #cc0099;
+  font-size: 17px;
+}
+
+   .brown-white {
+  background-color: #994f00
+}
+   .brown-white:hover {
+  background-color: #663500;
+  font-size: 17px;
+}
+
+    .title {
+  font-family: "verdana";
+  color: #FF9900
+}
+
+a:link {
+  text-decoration: none;
+}
+.dropbtn {
+  color: white;
+  font-size: 16px;
+  border: none;
+  background-color: #1172d9;
+  borer-radius:25px;
+  color: #FFFFFF;
+  font-family: "verdana"
+}
+
+.dropdown {
+  display: inline-block;
+  border-radius:25px;
+  width:100%
+}
+
+.dropdown-content {
+  display: none;  
+  width: 100%;  
+  border-radius:25px;
+  transition:0.3s;
+}
+.tip {
+  display: none;  
+  width: 100%;  
+
+  transition:0.3s;
+  background-color:#1172d9;
+  position:fixed;
+}
+.dropdown-content a {
+  color: black;
+  display: block;
+}
+.dropdown:hover .tip {display: block;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {width:100%;}
+
+
+iframe {  border: none;
+}
+
+/* -------- */
+
+.invis{
+  display:none;
+}
+
+#btn {
+  padding:5px 10px;
+  background: transparent;
+  color:#fff;
+  position: absolute;
+  left: 13%;
+  top: 1.125%;
+}
+
+#panic {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  top: 0;
+  left: 0;
+  display:flex;
+  /* pointer-events:none; */
+  display:none;
+}
+
+.close {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display:none;
+  cursor:pointer;
+}
+
+input:checked + div + #panic {
+  display:flex;
+}
+
+input:checked + div + #panic + .close {
+  display:block;
+}
+input:checked + #hide {
+  display:none;
+}
+iframe.fullscreen{
+height:100vh;
+width:100vw;
+}
+
+img.mpreview{
+width:30vw;
+height:30vw
+}
+h1.gamesel{
+color:white;
+font-family:verdana;
+font-size:5vh
+}
+#dmiss{
+position: absolute;
+top:15%;
+left:40%
+}
+
+input:active + div + #pop {
+  display:none;
+}
+input.dismiss{
+position: absolute;
+left:20%;
+}
+.alert {
+  padding: 20px;
+  background-color: limegreen;
+  border-radius:25px;
+  color: white;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+.alert:hover {
+  padding: 27px;
+  transition: 0.3s;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
